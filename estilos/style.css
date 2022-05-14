@@ -5,8 +5,6 @@
     margin:0;
 }
 
-
-
 .bodyindex{
     background-color: whitesmoke;
     font-family:'Montserrat', sans-serif;
@@ -33,6 +31,8 @@ nav ul li a{
     text-decoration: none;
     font-family:'Montserrat', sans-serif;
 }
+
+
 .h1mobile1{
     display: flex;
     justify-content: center;
@@ -102,15 +102,15 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    height: 1600px;
+    height: 1297px;
     gap: 15px;
 
 }
 
 .imgindex{
     border-radius: 200px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .padre{
@@ -128,49 +128,8 @@ footer{
     "footer";
 }
 
-@media(min-width:600px){
 
-
-    .padre{
-        display: grid;
-        gap: 20px;
-        grid-template-areas: 
-        "header"
-        "sectionmobile"
-        "sectionmobile2"
-        "galeria"
-        "footer";
-    }
-
-    ul li{
-        list-style-type: none;
-        color: black;
-    
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: whitesmoke;
-        font-family: 'Montserrat', sans-serif;
-    
-    }
-    
-    nav ul li a:hover{
-        background: rgb(237, 240, 243);
-    }
-    
-    
-    .navBar{
-        display: flex;
-        justify-content:flex-end;
-        position: sticky;
-    }
-    
-    .navBar li{
-        margin: 0.5vh;
-    }
-}
-
-@media(min-width:780px){
+@media(min-width:768px){
 
     .gridPrincipal{
         display: grid;
@@ -194,6 +153,11 @@ footer{
     .galeria{
         grid-area: galeria;
         background-color: rgba(117, 89, 163, 0.582);
+    }
+
+    .imgindex{
+        width: 400px;
+        height: 400px;
     }
 
     .galeria{
@@ -276,6 +240,11 @@ nav ul li a:hover{
     margin: 0.5vh;
 }
 
+.navBar{
+    display: flex;
+    justify-content:flex-end;
+    position: sticky;
+}
 
 .gridPrincipal{
     display: grid;
@@ -359,7 +328,7 @@ footer{
     background-color: black;
     color: white;
     padding: 5vh;
-    margin-top: auto;
+
 
 }
 
@@ -470,15 +439,15 @@ footer{
 }
 
 .imgservicio{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 200px;
     padding: 3px;
     padding-left: 12px;
     margin: 16px;
 }
 
-@media(min-width:780px){
+@media(min-width:768px){
     .bodyServicios{
         background-image: none;
     }
@@ -707,3 +676,31 @@ footer{
     max-width: 96vw;
 }
 
+/* bootstrap de la Galeria */
+
+.carousel-inner img{
+    max-width: 700px;
+}
+
+.h1galeria{
+    font-family:'Montserrat', sans-serif;
+    background-color: pink;
+}
+
+.parrafogaleria{
+    font-display: flex;
+    align-content: space-between;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+.container{
+    padding-top: 50px;
+}
+
+@media(min-width:1024px){
+
+    .headergaleria{
+    height: 6vw;
+}
+}
