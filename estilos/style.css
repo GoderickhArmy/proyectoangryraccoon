@@ -8,7 +8,6 @@
 
 .bodyindex{
     background-color: whitesmoke;
-    font-family:'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -33,6 +32,9 @@ nav ul li a{
     font-family:'Montserrat', sans-serif;
 }
 
+nav ul li a:hover{
+    color: rgb(142, 102, 180);
+}
 
 .h1mobile1{
     display: flex;
@@ -71,12 +73,19 @@ nav ul li a{
 
 footer{
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     background-color: black;
-    margin-bottom: 0;
     margin-top: auto;
     color: whitesmoke;
-    font-family:'Montserrat', sans-serif;
+    height: 94px;
+}
+
+.socialcontacts a i{
+    color: whitesmoke;
+}
+
+.socialcontacts a i:hover{
+    color: rgb(129, 95, 192);
 }
 
 .card{
@@ -251,7 +260,7 @@ footer{
 header{
     background-color:rgba(245, 245, 245, 0.774);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 2vw;
+    height: 5vw;
     padding: 2vw;
     display: flex;
     justify-content: end;
@@ -378,7 +387,6 @@ footer{
     margin-top:50px;
     color: whitesmoke;
     margin-bottom: 0;
-    height: 80px;
 }
 
 .footerindex h5{
@@ -501,7 +509,6 @@ footer{
 .footers{
     margin-top:100px;
     color: whitesmoke;
-    height: 90px;
 
 }
 
@@ -718,9 +725,10 @@ footer{
 
 .footerestetica{
     margin-top:50px;
-    margin-bottom: auto;
     color: whitesmoke;
+    height: 94px;
 }
+
 .footerestetica h5{
     font-family:'Montserrat', sans-serif;
     font-size: smaller;
@@ -785,10 +793,10 @@ footer{
     margin-right: 4rem;
     width: 70%;
 }
+
 .footerpromociones{
     margin-top: 100px;
     color: whitesmoke;
-    height: 90px;
 
 }
 
@@ -807,14 +815,6 @@ footer{
     background-image: url(../img/contacto2.jpg);
 }
 
-.contacto{
-    display: flex;
-    justify-content: center;
-    padding:1rem;
-    margin:1rem;
-    width: 100vw;
-
-}
 
 .h1contacto{
     display: flex;
@@ -843,9 +843,8 @@ footer{
 }
 
 .footercontacto{
-    margin-top:190px;
+    margin-top: 13rem;
     color: whitesmoke;
-    height: 90px;
 
 }
 
@@ -901,15 +900,16 @@ footer{
     background-color: pink;
 }
 
+.h2galeria{
+    background-color: rgb(166, 203, 235);
+    font-family:'Montserrat', sans-serif;
+}
+
 .parrafogaleria{
     font-display: flex;
     align-content: space-between;
     font-family:'Montserrat', sans-serif;
 
-}
-
-.container{
-    padding-top: 10px;
 }
 
 .footergaleria{
@@ -929,11 +929,9 @@ footer{
     font-size: small;
 }
 
-@media(min-width:1024px){
-
-    .headergaleria{
-    height: 6vw;
-}
+#kittie{
+    font-family:'Montserrat', sans-serif;
+    margin-top: 2rem;
 }
 
 /* boostrap de contacto */
