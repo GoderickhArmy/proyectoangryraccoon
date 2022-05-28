@@ -1,0 +1,122 @@
+.bodyindex{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+}
+
+
+.h1mobile1{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: $font;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5vw;
+    margin-top: 4vw;
+    border: 0.3vw solid rgb(0, 0, 0);
+    width: 200px;
+}
+.h2mobile2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    color: rgb(0, 0, 0);
+    font-family: $font;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5vw;
+    margin: 3vw;
+    border: 0.3vw solid rgb(0, 0, 0);
+}
+
+.parrafomobile{
+    margin: 2vw;
+    padding-left: 1vw;
+}
+
+.socialcontacts a i{
+    color: whitesmoke;
+
+    &:hover{
+        color: rgb(129, 95, 192);
+    }
+}
+
+.card{
+    background-color: none;
+    margin-top: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: auto;
+}
+
+.header{
+    grid-area: header;
+
+}
+
+.sectionmobile{
+    grid-area: sectionmobile;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sectionmobile2{
+    grid-area: sectionmobile2;
+}
+
+.galeria{
+    grid-area: galeria;
+    background-color: rgba(198, 201, 201, 0.856);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 1297px;
+    gap: 15px;
+
+    .padre{
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+        "header"
+        "sectionmobile"
+        "sectionmobile2"
+        "galeria"
+        "footer";
+        justify-content: center;
+        align-content: center;
+
+        .h3tituloindex{
+            margin: 1vw;
+            padding:1vw;   
+        }
+    }
+    
+}
+.imgindex{
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+.footerindex{
+    grid-area: footer;
+    margin-top: 2rem;
+    h5{
+        font-size: small;
+        font-family: $font;
+    }
+    h6{
+        font-size: smaller;
+        font-family: $font;
+    }
+}

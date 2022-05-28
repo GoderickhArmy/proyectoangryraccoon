@@ -1,0 +1,54 @@
+.titulopromociones{
+    background-color: pink;
+    padding: 8px;
+    margin: 0.2rem;
+    margin-top: 20px;
+    margin-bottom: 0.2rem;
+}
+
+.titulopromociones h1{
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.titulopromociones2{
+    background-color: rgb(151, 210, 250);
+    padding: 8px;
+    margin: 0.2rem;
+    margin-top: 10px;
+    margin-bottom: 0.2rem;
+}
+
+.titulopromociones2 h2{
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    font-size: x-large;
+    justify-content: center;
+
+}
+
+#carouselExampleCaptions{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: 70%;
+}
+
+.footerpromociones{
+    margin-top: 100px;
+    color: whitesmoke;
+
+}
+
+.footerpromociones h5{
+    font-family:'Montserrat', sans-serif;
+    font-size: smaller;
+}
+
+.footerpromociones h6{
+    font-family:'Montserrat', sans-serif;
+    font-size: small;
+}

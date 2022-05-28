@@ -1,0 +1,79 @@
+.imgestetica{
+    width: 250px;
+    height:250px;
+    border-radius: 200px;
+    margin: 4px;
+    padding: 4px;
+}
+
+.galeriaestetica2{
+    display: grid;
+}
+
+.imgestetica div{
+    flex-direction:column;
+    justify-content: center;
+}
+
+.blogDer{
+    flex-direction: row-reverse;
+}
+
+.h2tituloestetica{
+    font-family:'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 16px;
+
+}
+
+.parrafoestetica{
+    margin:7px;
+    padding: 11px;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+.h1estetica{
+    margin-bottom: auto;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    background-color: rgb(166, 203, 235);
+}
+
+.h3estetica{
+    background-color: pink;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: x-large;
+    font-family:'Montserrat', sans-serif;
+}
+
+.footerestetica{
+    margin-top:50px;
+    color: whitesmoke;
+}
+
+.footerestetica h5{
+    font-family:'Montserrat', sans-serif;
+    font-size: smaller;
+}
+.footerestetica h6{
+    font-family:'Montserrat', sans-serif;
+    font-size: small;
+}
+
+
+/* bootstrap Estetica */
+
+.alertestetica:hover{
+    transition: all 3s;
+    transform: scale(1.6);
+}
+
+.alertestetica{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Koulen', sans-serif;
+
+}

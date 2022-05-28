@@ -5,6 +5,29 @@
   margin: 0;
 }
 
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul li a:hover {
+  color: #8e66b4;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: black;
+  margin-top: auto;
+  color: whitesmoke;
+}
+
 .bodyindex {
   background-color: whitesmoke;
   display: -webkit-box;
@@ -32,21 +55,6 @@ header {
   background-color: black;
 }
 
-nav ul li {
-  list-style: none;
-  text-transform: uppercase;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-}
-
-nav ul li a:hover {
-  color: #8e66b4;
-}
-
 .h1mobile1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,7 +63,7 @@ nav ul li a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
   padding: 0.5vw;
   margin-top: 4vw;
@@ -72,33 +80,16 @@ nav ul li a:hover {
           justify-content: center;
   color: black;
   color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
   padding: 0.5vw;
   margin: 3vw;
   border: 0.3vw solid black;
 }
 
-.h3tituloindex {
-  margin: 1vw;
-  padding: 1vw;
-}
-
-.h3estetica h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .parrafomobile {
   margin: 2vw;
   padding-left: 1vw;
-}
-
-footer {
-  text-align: center;
-  padding: 25px;
-  background-color: black;
-  margin-top: auto;
-  color: whitesmoke;
 }
 
 .socialcontacts a i {
@@ -123,13 +114,6 @@ footer {
   grid-area: header;
 }
 
-.galeria {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  grid-area: galeria;
-  background-color: rgba(198, 201, 201, 0.856);
-}
-
 .sectionmobile {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -150,30 +134,24 @@ footer {
   grid-area: sectionmobile2;
 }
 
-.footer {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  grid-area: footer;
-}
-
 .galeria {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: galeria;
+  background-color: rgba(198, 201, 201, 0.856);
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
   height: 1297px;
   gap: 15px;
 }
 
-.imgindex {
-  border-radius: 200px;
-  width: 300px;
-  height: 300px;
-}
-
-.padre {
+.galeria .padre {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+      grid-template-areas: "header" "sectionmobile" "sectionmobile2" "galeria" "footer";
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -181,11 +159,15 @@ footer {
       align-content: center;
 }
 
-.padre {
-  display: -ms-grid;
-  display: grid;
-  gap: 20px;
-      grid-template-areas: "header" "sectionmobile" "sectionmobile2" "galeria" "footer";
+.galeria .padre .h3tituloindex {
+  margin: 1vw;
+  padding: 1vw;
+}
+
+.imgindex {
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .footerindex {
@@ -197,15 +179,14 @@ footer {
 
 .footerindex h5 {
   font-size: small;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footerindex h6 {
   font-size: smaller;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* servicios*/
 .bodyServicios {
   background-color: rgba(245, 245, 245, 0.562);
   background-image: none;
@@ -307,7 +288,6 @@ footer {
   margin: 16px;
 }
 
-/*Estetica*/
 .imgestetica {
   width: 250px;
   height: 250px;
@@ -395,7 +375,6 @@ footer {
   font-family: 'Koulen', sans-serif;
 }
 
-/*promociones*/
 .titulopromociones {
   background-color: pink;
   padding: 8px;
@@ -457,7 +436,66 @@ footer {
   font-size: small;
 }
 
-/*contacto*/
+.h1galeria {
+  font-family: "Montserrat", sans-serif;
+  background-color: pink;
+}
+
+.h2galeria {
+  background-color: #a6cbeb;
+  font-family: "Montserrat", sans-serif;
+}
+
+.parrafogaleria {
+  font-display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footergaleria {
+  margin-top: 50px;
+  margin-bottom: auto;
+  color: whitesmoke;
+}
+
+.footergaleria h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+}
+
+.footergaleria h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+
+/* bootstrap de la Galeria */
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 350px;
+}
+
+#galeria .col-md-6 {
+  padding: 10px;
+  margin: 0 !important;
+}
+
+/* animaciones de la galeria */
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+/* galeria */
+#kittie {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
 .bodycontacto {
   background-image: url(../img/contacto2.jpg);
 }
@@ -520,66 +558,6 @@ footer {
   border-radius: 0.5rem;
   -webkit-box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
           box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
-}
-
-/* bootstrap de la Galeria */
-#galeria .col-lg-4 {
-  margin: 0 !important;
-  padding: 25px;
-}
-
-#galeria img {
-  width: 100%;
-  height: 350px;
-}
-
-#galeria .col-md-6 {
-  padding: 10px;
-  margin: 0 !important;
-}
-
-/* animaciones de la galeria */
-#galeria img:hover {
-  border: 5px solid white;
-}
-
-/* galeria */
-.h1galeria {
-  font-family: 'Montserrat', sans-serif;
-  background-color: pink;
-}
-
-.h2galeria {
-  background-color: #a6cbeb;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.parrafogaleria {
-  font-display: flex;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.footergaleria {
-  margin-top: 50px;
-  margin-bottom: auto;
-  color: whitesmoke;
-}
-
-.footergaleria h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: smaller;
-}
-
-.footergaleria h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: small;
-}
-
-#kittie {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 2rem;
 }
 
 /* boostrap de contacto */

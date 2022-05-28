@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: $font;
+
+        &:hover{
+            color: rgb(142, 102, 180);
+        }
+    }
+}
+
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    margin-top: auto;
+    color: whitesmoke;
+}

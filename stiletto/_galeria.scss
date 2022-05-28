@@ -1,0 +1,63 @@
+.h1galeria{
+    font-family: $font;
+    background-color: pink;
+}
+
+.h2galeria{
+    background-color: rgb(166, 203, 235);
+    font-family: $font;
+}
+
+.parrafogaleria{
+    font-display: flex;
+    align-content: space-between;
+    font-family: $font;
+
+}
+
+.footergaleria{
+    margin-top:50px;
+    margin-bottom: auto;
+    color: whitesmoke;
+}
+
+
+.footergaleria h5{
+    font-family: $font;
+    font-size: smaller;
+}
+
+.footergaleria h6{
+    font-family: $font;
+    font-size: small;
+}
+
+/* bootstrap de la Galeria */
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+    height: 350px;
+}
+
+#galeria .col-md-6{
+    padding: 10px;
+    margin: 0 !important;
+}
+/* animaciones de la galeria */
+
+#galeria img:hover{
+    border: 5px solid white;
+
+}
+/* galeria */
+
+
+#kittie{
+    font-family:$font;
+    margin-top: 2rem;
+}
