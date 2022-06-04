@@ -421,6 +421,12 @@ header {
   width: 70%;
 }
 
+.carousel-caption h5 {
+  background-color: aliceblue;
+  color: black;
+  padding: 10px;
+}
+
 .footerpromociones {
   margin-top: 100px;
   color: whitesmoke;
@@ -576,12 +582,12 @@ header {
 }
 
 /* @extend*/
-.redsocial, h5 {
+.redsocial, .h5contacto {
   background-color: aliceblue;
   color: black;
 }
 
-h5 {
+.h5contacto {
   padding: 10px;
 }
 
