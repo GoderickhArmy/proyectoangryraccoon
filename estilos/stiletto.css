@@ -575,6 +575,22 @@ header {
   background-color: pink;
 }
 
+/* @extend*/
+.redsocial, h5 {
+  background-color: aliceblue;
+  color: black;
+}
+
+h5 {
+  padding: 10px;
+}
+
+/*mixin*/
+.h1contacto {
+  color: black;
+  background-color: #7c2448;
+}
+
 @media (min-width: 768px) {
   .bodyServicios {
     background-image: none;

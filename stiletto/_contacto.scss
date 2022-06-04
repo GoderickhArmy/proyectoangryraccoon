@@ -71,3 +71,27 @@
     background-color: pink;
 }
 
+
+
+/* @extend*/
+
+.redsocial{
+    background-color: aliceblue;
+    color: black
+}
+
+h5{
+    @extend.redsocial;
+    padding: 10px;
+}
+
+/*mixin*/
+
+@mixin color($color, $background-color){
+    color:$color;
+    background-color: $background-color;
+}
+
+.h1contacto{
+    @include color(black, rgb(124, 36, 72))
+}
