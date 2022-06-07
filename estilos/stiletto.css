@@ -566,7 +566,6 @@ header {
           box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
 }
 
-/* boostrap de contacto */
 .moveformulario {
   display: -ms-grid;
   display: grid;
@@ -579,22 +578,6 @@ header {
 
 .btn {
   background-color: pink;
-}
-
-/* @extend*/
-.redsocial, .h5contacto {
-  background-color: aliceblue;
-  color: black;
-}
-
-.h5contacto {
-  padding: 10px;
-}
-
-/*mixin*/
-.h1contacto {
-  color: black;
-  background-color: #7c2448;
 }
 
 @media (min-width: 768px) {
